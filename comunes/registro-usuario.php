@@ -48,15 +48,19 @@
 
                             <div class="col-lg-6 col-sm-6 mt-3">
                                 <input class="form-control" type="text" placeholder="Ingrese sus apellidos" required name="apellido">
-                            </div>
-                                       
-                            <div class="col-lg-6 col-sm-6 mt-3">
-                                <input class="form-control" type="email" placeholder="Ingrese su correo" required name="correo">
                             </div>  
                             
                             <div class="col-lg-6 col-sm-6 mt-3">
-                                <input class="form-control" type="number" placeholder="Ingrese su número de teléfono" required name="telefono">
+                                <input class="form-control" type="email" placeholder="Ingrese su correo" required name="correo">
                             </div> 
+
+                            <div class="col-lg-6 col-sm-6 mt-3">
+                                <input class="form-control" type="number" placeholder="Ingrese un numero de telefono" required name="telefono">
+                            </div> 
+                             
+                            <div class="col-lg-6 col-sm-6 mt-3">
+                                <input name="contraseña" type="password" class="form-control" required placeholder="Ingrese una contraseña">
+                            </div>
 
                             <div class="col-lg-6 col-sm-6 mt-3">
                                 <select name="tip_rol" class="form-control" required>
@@ -66,9 +70,6 @@
                                 </select>
                             </div> 
 
-                            <div class="col-lg-6 col-sm-6 mt-3">
-                                <input name="contraseña" type="password" class="form-control" required placeholder="Ingrese una contraseña">
-                            </div>
 
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary mt-3" name="registrar">Registrar usuario</button>
@@ -95,7 +96,8 @@
                                             <th>correo</th>
                                             <th>Teléfono</th>
                                             <th>Rol</th>
-                                            <th></th>
+                                            <th>Acciones</th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -115,8 +117,8 @@
                                                     <td><?php echo $datos->telefono ?></td>
                                                     <td><?php echo $datos->Rol?></td>
                                                     <td>
-                                                        <!-- <a href="" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square"></i></a> -->
-                                                        <!-- <a href="" class="btn btn-small btn-danger"><i class="fa-solid fa-trash"></i></a> -->
+                                                        <button href="" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square"></i></button>
+                                                        <button href="" class="btn btn-small btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                             <?php

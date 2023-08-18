@@ -34,7 +34,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <a href="../index.php" class="btn btn-danger">Cerrar sesión</a>
+                    <a href="../comunes/login-registro.php" class="btn btn-danger">Cerrar sesión</a>
                   </div>
                 </div>
               </div>
