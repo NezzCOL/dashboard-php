@@ -50,6 +50,9 @@
                             <div class="col-lg-6 col-sm-6 mt-3">
                                 <input class="form-control" type="text" placeholder="Ingrese sus apellidos" required name="apellido">
                             </div>  
+                            <div class="col-lg-6 col-sm-6 mt-3">
+                                <input class="form-control" type="text" placeholder="Nombre de usuario" required name="usuario">
+                            </div>  
                             
                             <div class="col-lg-6 col-sm-6 mt-3">
                                 <input class="form-control" type="email" placeholder="Ingrese su correo" required name="correo">
@@ -94,6 +97,7 @@
                                             <th>Número de documento</th>
                                             <th>Nombre</th>
                                             <th>Apellidos</th>
+                                            <th>Usuario</th>
                                             <th>correo</th>
                                             <th>Teléfono</th>
                                             <th>Rol</th>
@@ -114,6 +118,7 @@
                                                     <td><?php echo $datos->numero_documento ?></td>
                                                     <td><?php echo $datos->nombre ?></td>
                                                     <td><?php echo $datos->apellido ?></td>
+                                                    <td><?php echo $datos->usuario?></td>
                                                     <td><?php echo $datos->correo ?></td>
                                                     <td><?php echo $datos->telefono ?></td>
                                                     <td><?php echo $datos->Rol?></td>
@@ -139,7 +144,6 @@
                 </div>
 
             </div>
-        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="../js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
@@ -147,6 +151,5 @@
         <script src="../assets/demo/chart-bar-demo.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
         <script src="../js/datatables-simple-demo.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -16,6 +16,7 @@
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="../comunes/registro-usuario.php">Registrar usuario</a>
+                                    <a class="nav-link" href="../comunes/administrar-cursos.php">Administrar cursos</a>
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Interface</div>

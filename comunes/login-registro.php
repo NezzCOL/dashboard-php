@@ -9,7 +9,7 @@
 <body>
     <div class="formulario">
         <h1>Inicio de sesion</h1>
-        <form action="login/validar.php" method="post">
+        <form action="../php/login-inicio-sesión.php" method="post">
             <div class="username">
                 <input type="text" placeholder="Nombre de usuario" name="usuario">
             </div>
@@ -18,8 +18,8 @@
             </div>
             <input type="submit" name="btn" value="Iniciar"><br>
             <?php
-                include("login/db.php");
-                include("login/validar.php");
+                include("../Login/db.php");
+                include("../php/login-inicio-sesión.php");
             ?>
             <br>
         </form>
